@@ -7,7 +7,7 @@ float seconds = 0.0;
 void setup() {
  
   Serial.begin(115200);                            //Serial connection
-  WiFi.begin("SFR_3A28", "6mhj43ekuv5kix63swsv");   //WiFi connection
+  WiFi.begin("SSID", "Password");   //WiFi connection
  
   while (WiFi.status() != WL_CONNECTED) {  //Wait for the WiFI connection completion
  
