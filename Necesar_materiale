@@ -1,0 +1,19 @@
+Aceast fisier va contine necesarul de materiale pentru aplicatia irigare plante solar:
+
+Informatiile de umiditate sol si presiune/debit apa din solar vor fi colectate de catre 
+RPi care va lua decizia finala de pornire pompa de apa. 
+
+A fost aleasa aceasta modalitate de interactiune datorita distantelor dintre solar, fantana
+si casa si totodata s-a luat in calcul si posibilitatea extinderii sistemului de irigare si
+in partea de gazon.
+RPi a fost ales si pentru o posibila interactiune inteligenta cu mediul exterior in functie 
+de previziunile meteo ale precipitatiilor
+
+1. Master Unit :  Raspberry Pi 
+	1. Transciever RF pentru comanda prizelor RF
+	2. Priza RF pentru comutare pompa
+	
+2. Slave Unit : ESP8266
+	1. Senzor umiditate sol (digital)
+	2. Senzor presiune/debit apa (analogic)
+	
