@@ -12,8 +12,13 @@ de previziunile meteo ale precipitatiilor
 1. Master Unit :  Raspberry Pi 
 	1. Transciever RF pentru comanda prizelor RF
 	2. Priza RF pentru comutare pompa
+	3. Alimentator RPi 5V@3A
+	4. SD card 16GB
+	5. 2 x Acumulator Li-PO 18650 3.7V@8.9Ah	
+	6. Modul Buck converter DC-DC la 5V
 	
 2. Slave Unit : ESP8266
 	1. Senzor umiditate sol (digital)
 	2. Senzor presiune/debit apa (analogic)
-	
+	3. Modul Buck converter DC-DC la 3.3V
+	4. Acumulator Li-PO 18650 3.7V@8.9Ah	
