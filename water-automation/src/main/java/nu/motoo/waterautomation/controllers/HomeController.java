@@ -1,4 +1,4 @@
-package nu.motoo.waterautomation.controller;
+package nu.motoo.waterautomation.controllers;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

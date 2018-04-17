@@ -1,4 +1,4 @@
-package nu.motoo.waterautomation.controller;
+package nu.motoo.waterautomation.controllers;
 
 import com.pi4j.io.gpio.*;
 import org.springframework.web.bind.annotation.RequestMapping;
